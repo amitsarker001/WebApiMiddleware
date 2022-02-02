@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -11,15 +12,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApiMiddleware.Data;
+using WebApiMiddleware.Data.Services;
 
 namespace WebApiMiddleware
 {
     public class Startup
     {
+
+        public string ConnectionString { get; set; }
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-        }
+            ConnectionString = configuration.GetConnectionString("DefaultConnectionString");
+;        }
 
         public IConfiguration Configuration { get; }
 
@@ -28,6 +34,13 @@ namespace WebApiMiddleware
         {
 
             services.AddControllers();
+
+            //configure DBContext with SQL
+            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(ConnectionString));
+
+            //Configure the services
+            services.AddTransient<BooksService>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApiMiddleware", Version = "v1" });
@@ -54,6 +67,8 @@ namespace WebApiMiddleware
             {
                 endpoints.MapControllers();
             });
+
+            AppDbInitializer.Seed(app);
         }
     }
 }

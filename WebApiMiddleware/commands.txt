@@ -1,0 +1,18 @@
+#Git Command:
+git init
+git add .
+git commit -m "inital commit"
+git push -u origin main
+git fetch --all
+
+# double tab
+prop -> class property
+ctor -> constructor
+
+#Install-Package 
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+# Add-Migration InitialDatabaseMigration
+# Update-Database
