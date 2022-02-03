@@ -15,5 +15,6 @@ namespace WebApiMiddleware.Data
         }
 
         public DbSet<Book> Books { get; set; }
+        public DbSet<Employee> Employees { get; set; }
     }
 }

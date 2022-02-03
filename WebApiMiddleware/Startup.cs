@@ -40,6 +40,7 @@ namespace WebApiMiddleware
 
             //Configure the services
             services.AddTransient<BooksService>();
+            services.AddTransient<EmployeesService>();
 
             services.AddSwaggerGen(c =>
             {
