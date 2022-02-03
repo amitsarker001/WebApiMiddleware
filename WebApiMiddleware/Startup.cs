@@ -69,7 +69,7 @@ namespace WebApiMiddleware
                 endpoints.MapControllers();
             });
 
-            AppDbInitializer.Seed(app);
+            //AppDbInitializer.Seed(app);
         }
     }
 }

@@ -5979,19 +5979,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\amit.it\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Personal Info\\Projects\\WebApiMiddleware\\WebApiMiddleware\\WebApiMiddleware.csproj",
+      "projectUniqueName": "F:\\DOT NET PROJECT\\WebApiMiddleware\\WebApiMiddleware\\WebApiMiddleware.csproj",
       "projectName": "WebApiMiddleware",
-      "projectPath": "D:\\Personal Info\\Projects\\WebApiMiddleware\\WebApiMiddleware\\WebApiMiddleware.csproj",
-      "packagesPath": "C:\\Users\\amit.it\\.nuget\\packages\\",
-      "outputPath": "D:\\Personal Info\\Projects\\WebApiMiddleware\\WebApiMiddleware\\obj\\",
+      "projectPath": "F:\\DOT NET PROJECT\\WebApiMiddleware\\WebApiMiddleware\\WebApiMiddleware.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "F:\\DOT NET PROJECT\\WebApiMiddleware\\WebApiMiddleware\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\amit.it\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
