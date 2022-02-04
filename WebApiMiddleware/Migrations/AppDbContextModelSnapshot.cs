@@ -87,6 +87,48 @@ namespace WebApiMiddleware.Migrations
 
                     b.ToTable("Employees");
                 });
+
+            modelBuilder.Entity("WebApiMiddleware.Data.Model.Products", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Category")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProductName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StockQty")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UnitPrice")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("WebApiMiddleware.Data.Model.UserInfo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("Password")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserName")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("UserInfos");
+                });
 #pragma warning restore 612, 618
         }
     }
