@@ -82,7 +82,6 @@ F:\DOT NET PROJECT\WebApiMiddleware\WebApiMiddleware\bin\Debug\net5.0\Microsoft.
 F:\DOT NET PROJECT\WebApiMiddleware\WebApiMiddleware\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 F:\DOT NET PROJECT\WebApiMiddleware\WebApiMiddleware\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 F:\DOT NET PROJECT\WebApiMiddleware\WebApiMiddleware\bin\Debug\net5.0\Microsoft.OpenApi.dll
-F:\DOT NET PROJECT\WebApiMiddleware\WebApiMiddleware\bin\Debug\net5.0\Newtonsoft.Json.dll
 F:\DOT NET PROJECT\WebApiMiddleware\WebApiMiddleware\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 F:\DOT NET PROJECT\WebApiMiddleware\WebApiMiddleware\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 F:\DOT NET PROJECT\WebApiMiddleware\WebApiMiddleware\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -118,4 +117,5 @@ F:\DOT NET PROJECT\WebApiMiddleware\WebApiMiddleware\obj\Debug\net5.0\WebApiMidd
 F:\DOT NET PROJECT\WebApiMiddleware\WebApiMiddleware\obj\Debug\net5.0\ref\WebApiMiddleware.dll
 F:\DOT NET PROJECT\WebApiMiddleware\WebApiMiddleware\obj\Debug\net5.0\WebApiMiddleware.pdb
 F:\DOT NET PROJECT\WebApiMiddleware\WebApiMiddleware\obj\Debug\net5.0\WebApiMiddleware.genruntimeconfig.cache
+F:\DOT NET PROJECT\WebApiMiddleware\WebApiMiddleware\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 F:\DOT NET PROJECT\WebApiMiddleware\WebApiMiddleware\obj\Debug\net5.0\WebApiMiddleware.csproj.AssemblyReference.cache
